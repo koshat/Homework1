@@ -4,3 +4,15 @@
 // -3 -> нет
 // 7 -> нет
 
+// Условия и ввод
+
+Console.Clear();
+
+Console.Write("Ввести число: ");
+int a = int.Parse(Console.ReadLine());
+
+// Решение и вывод
+if (a % 2 == 0)
+Console.WriteLine("Число чётное");
+else
+Console.WriteLine("Число нечётное");
