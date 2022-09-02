@@ -3,3 +3,19 @@
 // 5 -> 2, 4
 // 8 -> 2, 4, 6, 8
 
+// Условия и ввод
+Console.Clear();
+Console.Write("Ввести число от 1 до 100: ");
+int n = Convert.ToInt32(Console.ReadLine());
+int i = 1;
+
+// Решение и вывод
+
+while (i <= n)
+{
+    if (i % 2 == 0)
+    {
+        Console.Write($" {i}");
+    }
+    i ++;
+}
